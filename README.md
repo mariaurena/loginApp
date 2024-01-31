@@ -1,8 +1,5 @@
-# React + Vite
+# Login y registro de un usuario
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En este proyecto he creado un formulario que permite a un usuario registrarse y hacer login contra Firebase Authentication. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Captura desde 2024-01-31 12-23-09](https://github.com/mariaurena/login/assets/58937944/070b6bbb-2ae9-45a3-897a-fc1a96bb23a1)
