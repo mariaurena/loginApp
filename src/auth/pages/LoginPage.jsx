@@ -22,8 +22,6 @@ export const LoginPage = () => {
   
     // si el status cambia se obtiene un nuevo valor
     const isAuthenticating = useMemo( () => status === 'checking', [status])
-
-    const isAuthenticated = useMemo( () => status === 'authenticated', [status])
   
     const onSubmit = ( event ) => {
       event.preventDefault()
@@ -84,7 +82,7 @@ export const LoginPage = () => {
                     <Grid item xs={ 12 } sm={ 6 }>
                         <Button
                             // estará disabled si el usuario ya está autenticado
-                            disabled={ isAuthenticated }
+                            disabled={ isAuthenticating }
                             type="submit" 
                             variant='contained' 
                             fullWidth>
@@ -94,7 +92,7 @@ export const LoginPage = () => {
                     <Grid item xs={ 12 } sm={ 6 }>
                         <Button
                             // estará disabled si el usuario ya está autenticado
-                            disabled={ isAuthenticated}
+                            disabled={ isAuthenticating}
                             variant='contained' 
                             fullWidth
                             onClick={ onGoogleSignIn }>

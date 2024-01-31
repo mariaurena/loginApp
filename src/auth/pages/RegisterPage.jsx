@@ -35,8 +35,6 @@ export const RegisterPage = () => {
 
     const isCheckingAuthentication = useMemo( () => status === 'checking', [status])
 
-    const isAuthenticated = useMemo( () => status === 'authenticated', [status])
-
     const { 
         formState,   displayName,      email,      password,    onInputChange,
         isFormValid, displayNameValid, emailValid, passwordValid
@@ -122,7 +120,7 @@ export const RegisterPage = () => {
 
                     <Grid item xs = { 12 }>
                         <Button 
-                            disabled = { isAuthenticated }
+                            disabled = { isCheckingAuthentication }
                             type = "submit"
                             variant = 'contained' 
                             fullWidth>
