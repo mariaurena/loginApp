@@ -2,5 +2,4 @@
 
 En este proyecto he creado un formulario que permite a un usuario registrarse y hacer login contra Firebase Authentication. 
 
-file:///home/murena/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202024-01-31%2012-23-09.jpg
-
+![Captura desde 2024-01-31 12-23-09](https://github.com/mariaurena/loginApp/assets/58937944/16d49bd1-92cf-4604-86c7-663c15b50cf3)
